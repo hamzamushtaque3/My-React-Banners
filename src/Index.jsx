@@ -7,7 +7,7 @@ function App (){
     return (
         <main className="container">
             
-            <Badges shape="pill" color="red"> Badgens</Badges>
+            <Badges shape="pill" color="red"> HELLO</Badges>
             <Badges shape="pill" color="yellow"> Badge</Badges>
             <Badges shape="pill" color="green"> Badge</Badges>
             <Badges shape="pill" color="blue"> Badge</Badges>
