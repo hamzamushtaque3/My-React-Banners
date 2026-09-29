@@ -1,0 +1,108 @@
+
+body {
+  text-align: center;
+  margin: 20px 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* =========================
+   BASE BADGE
+   ========================= */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  padding: 8px 14px;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+
+  white-space: nowrap;
+  box-sizing: border-box;
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+
+/* =========================
+   SHAPES
+   ========================= */
+
+/* Slightly rounded square */
+.badge-square {
+  border-radius: 8px;
+}
+
+/* Fully rounded pill */
+.badge-pill {
+  border-radius: 9999px;
+}
+
+/* Generic rectangle */
+.badge-rectangle {
+  border-radius: 4px;
+}
+
+
+/* =========================
+   COLORS
+   ========================= */
+
+/* Gray */
+.badge-gray {
+  background-color: #f2f4f5;
+  color: #263342;
+}
+
+/* Red */
+.badge-red {
+  background-color: #fce1df;
+  color: #a32121;
+}
+
+/* Yellow */
+.badge-yellow {
+  background-color: #fff2c7;
+  color: #994b0b;
+}
+
+/* Green */
+.badge-green {
+  background-color: #d0fae5;
+  color: #096b55;
+}
+
+/* Blue */
+.badge-blue {
+  background-color: #d5e6ff;
+  color: #294ea5;
+}
+
+/* Indigo */
+.badge-indigo {
+  background-color: #dcdeff;
+  color: #38369a;
+}
+
+/* Purple */
+.badge-purple {
+  background-color: #eee8ff;
+  color: #6429ae;
+}
+
+/* Pink */
+.badge-pink {
+  background-color: #fbe5f1;
+  color: #9c1756;
+}
